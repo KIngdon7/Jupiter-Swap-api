@@ -18,8 +18,7 @@ RPC_URL = "https://virulent-neat-uranium.solana-mainnet.quiknode.pro/34c341f57c2
 YELLOWSTONE_GRPC_ENDPOINT = "https://basic.grpc.solanavibestation.com" # Optional 
 YELLOWSTONE_GRPC_X_TOKEN = "f1472ab97472ff4769418168d9f192f0"
 
-[http_service]
-force_https = true
+#[http_service]
 internal_port = 8080
 auto_stop_machines = true
 auto_start_machines = true
