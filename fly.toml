@@ -19,6 +19,7 @@ YELLOWSTONE_GRPC_ENDPOINT = "https://basic.grpc.solanavibestation.com" # Optiona
 YELLOWSTONE_GRPC_X_TOKEN = "f1472ab97472ff4769418168d9f192f0"
 
 [http_service]
+force_https = true
 internal_port = 8080
 auto_stop_machines = true
 auto_start_machines = true
