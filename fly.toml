@@ -6,8 +6,6 @@
 app = "./jupiter-swap-api"
 primary_region = "sin"
 
-[build]
-image = "ghcr.io/jup-ag/jupiter-swap-api:latest"
 
 [deploy]
 strategy = "bluegreen"
